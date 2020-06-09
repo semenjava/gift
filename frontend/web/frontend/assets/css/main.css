@@ -1,0 +1,180 @@
+.btn-icon .fa-circle,
+.btn-icon {
+  vertical-align: middle;
+  transition: color 0.5s ease;
+  font-size: 50px;
+}
+.btn-icon-sm .fa-circle,
+.btn-icon-sm {
+  font-size: 30px;
+}
+.btn-icon-circle-success .fa-circle,
+.btn-icon-success {
+  color: #1F8A70;
+}
+.btn-icon-circle-success:focus .fa-circle,
+.btn-icon-circle-success:hover .fa-circle,
+.btn-icon-success:focus,
+.btn-icon-success:hover {
+  color: #28b492;
+}
+.btn-icon-circle-success:active .fa-circle,
+.btn-icon-success:active {
+  color: #2fd0a9;
+}
+header {
+  background: #BEDB39;
+  color: #fff;
+  padding: 5px 0;
+  height: 40px;
+}
+header .btn-icon-sm,
+header a,
+header span {
+  vertical-align: middle;
+}
+header a {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+header a:focus,
+header a:hover {
+  color: #ff8f31;
+}
+header a:active {
+  color: #ffa355;
+}
+.sub_menu {
+  margin: 20px 0 10px;
+}
+.sub_menu:before,
+.sub_menu:after {
+  content: " ";
+  display: table;
+}
+.sub_menu:after {
+  clear: both;
+}
+.sub_menu__h1 {
+  margin: 0;
+  float: left;
+}
+.sub_menu__buttons {
+  float: right;
+}
+#gift_receiver__search {
+  margin: 10px 0 0;
+}
+#gift_receiver__section {
+  text-align: center;
+}
+.gift_receiver {
+  width: 280px;
+  background: #F8F8F8;
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  padding: 15px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 40px 0 40px 0;
+  -moz-border-radius: 40px 0 40px 0;
+  -webkit-border-radius: 40px 0 40px 0;
+}
+.gift_receiver:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0) inset;
+}
+.gift_receiver__name {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+}
+.gift_receiver hr {
+  border-top: 2px solid #fff;
+  margin: 10px 0 15px;
+}
+.gift_receiver__b {
+  text-align: center;
+  padding: 10px 0 15px;
+}
+.gift_receiver__b_left {
+  float: left;
+  width: 125px;
+  border-right: 1px solid #fff;
+}
+.gift_receiver__b_right {
+  float: right;
+  width: 125px;
+  border-left: 1px solid #fff;
+}
+.gift_receiver__birthdate {
+  position: relative;
+  margin: auto;
+  width: 50px;
+}
+.gift_receiver__birthmonth {
+  position: absolute;
+  top: -10px;
+  left: 4px;
+  width: 42px;
+  font-weight: bold;
+  border: 2px solid #FD7400;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 15px;
+}
+.gift_receiver__birthday {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  background: #FD7400;
+  color: #fff;
+  font-size: 22px;
+  line-height: 64px;
+}
+.gift_receiver__contact {
+  display: block;
+  width: 100%;
+  font-weight: 100;
+  font-size: 12px;
+  color: #333;
+  opacity: 0.5;
+}
+.gift_receiver__contact + .gift_receiver__contact {
+  margin-top: 10px;
+}
+.gift_receiver__contact:active,
+.gift_receiver__contact:focus,
+.gift_receiver__contact:hover {
+  opacity: 1;
+  color: #333;
+}
+#dates table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+#dates td {
+  border-top: 0;
+  vertical-align: middle;
+}
+#dates td:first-child {
+  border-radius: 20px 0 0 0;
+}
+#dates td:last-child {
+  border-radius: 0 0 20px 0;
+}
+#dates td:only-child {
+  text-align: center;
+  border-radius: 20px 0 20px 0;
+}
+#dates tbody tr {
+  background: #F8F8F8;
+  border-radius: 20px 0 20px 0;
+}
+#dates tbody tr:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0) inset;
+}
+#dates tbody tr {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) inset;
+}
